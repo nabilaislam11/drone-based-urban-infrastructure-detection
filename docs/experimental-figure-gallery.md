@@ -1,6 +1,6 @@
-# Original Experimental Figures
+# Experimental Results & Visualizations
 
-This gallery presents original visual evidence extracted from the team's final undergraduate thesis presentation. The files are reproduced without altering their original contents.
+Training results, model outputs, and applied research visualizations from the undergraduate thesis are organized by detection approach.
 
 ## YOLOv5
 
@@ -61,9 +61,5 @@ This gallery presents original visual evidence extracted from the team's final u
 ## Geolocation Demonstration
 
 ![Geolocation demonstration](../figures/geolocation-demonstration.png)
-
-## Provenance
-
-These 13 files were extracted from the original final thesis presentation and verified against the uploaded GitHub files using exact Git blob hashes. Their visual content has not been modified.
 
 For the experimental context and slide references, see [Experimental Results and Research Demonstrations](results-and-demonstrations.md). For the published paper, see [IEEE ICECE DOI 10.1109/ICECE64886.2024.11025116](https://doi.org/10.1109/ICECE64886.2024.11025116).
