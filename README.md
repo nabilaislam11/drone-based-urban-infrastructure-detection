@@ -84,7 +84,7 @@ As a co-author of this undergraduate thesis research, **I contributed to dataset
 | [Dataset methodology](docs/dataset-methodology.md) | Drone acquisition, annotation, and preprocessing |
 | [Experiment configurations](docs/experiment-configurations.md) | Training parameters from the original notebooks |
 | [Results and demonstrations](docs/results-and-demonstrations.md) | Detection experiments and research demonstrations |
-| [Original experimental figure gallery](docs/experimental-figure-gallery.md) | 13 figures from the final thesis presentation |
+| [Experimental Results & Visualizations](docs/experimental-figure-gallery.md) | Training results, model comparisons, detection outputs, and research visualizations |
 | [Research workflow](docs/research-workflow.md) | Acquisition-to-analysis methodology |
 | [Research team](docs/research-team.md) | Thesis authors and academic supervision |
 | [Reproducibility guide](docs/reproducibility-guide.md) | Dataset versions, experiment commands, and checkpoint inference |
