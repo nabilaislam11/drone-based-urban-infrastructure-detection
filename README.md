@@ -12,11 +12,21 @@ The research covers **YOLOv5, YOLOv7, YOLOv8, and a custom model**, using a data
 
 ## Research Highlights
 
-- **Locally collected aerial imagery:** Drone-based acquisition of images from Bangladesh to study urban infrastructure.
-- **Custom dataset development:** Dataset preparation and class-by-class manual image annotation.
-- **Comparative object detection:** Investigation of YOLOv5, YOLOv7, YOLOv8, and a custom model.
-- **Urban-planning relevance:** Infrastructure recognition and analysis from aerial imagery.
-- **Peer-reviewed conference publication:** Presented through IEEE ICECE 2024 research proceedings.
+- **IEEE-published research:** A comparative study of infrastructure detection using YOLOv5, YOLOv7, YOLOv8, and a custom approach.
+- **Original Bangladesh-based dataset:** Team-collected drone imagery from the rooftop of BRAC University's new campus in Merul Badda, Dhaka.
+- **Multi-stage urban observation:** Aerial imagery captured during three collection sessions to document the surrounding environment across different periods.
+- **Substantial manual annotation:** The thesis presentation reports 350 raw photographs, 17 videos, approximately 50,000 annotations, and 11 infrastructure classes.
+- **Preserved experimental evidence:** Original notebooks, a trained YOLOv8 checkpoint, and experimental figures from the thesis presentation.
+
+## Original Bangladesh-Based Dataset
+
+A defining contribution of this research is its **custom, locally collected aerial-imagery dataset**. During the period surrounding BRAC University's relocation from Mohakhali to its new Badda campus, the team captured drone imagery from the new campus rooftop in multiple sessions, documenting the surrounding urban environment at different stages.
+
+The team prepared and manually annotated the imagery to investigate infrastructure detection in a Bangladesh-specific setting. **This dataset enabled the published model-comparison research; it is not presented as a separate published dataset release.**
+
+**[Explore the original dataset-development showcase](docs/bangladesh-dataset-showcase.md)** for collection context, historical figures, annotation methodology, and the distinction between the original thesis dataset and recovered early exports.
+
+*The historical dataset counts come from the thesis presentation. The recovered exports contain smaller, earlier nine-class datasets and should not be mistaken for the complete final 11-class collection.*
 
 ## Experimental Evidence
 
@@ -52,7 +62,7 @@ The original experimental figures and [slide-referenced discussion](docs/results
 
 ## Research Contributions
 
-As a co-author of this undergraduate thesis research, I contributed to drone-imagery dataset preparation, manual image annotation, results analysis and visualization, and research writing and documentation. The work was conducted collaboratively with the research team.
+As a co-author of this undergraduate thesis research, **I contributed to dataset preparation, manual image annotation, results analysis and visualization, and research writing/documentation**. The drone-image acquisition and object-detection experiments were collaborative research-team activities; this statement does not imply that I personally trained or evaluated every model.
 
 ## Technical Scope
 
@@ -72,6 +82,7 @@ As a co-author of this undergraduate thesis research, I contributed to drone-ima
 | [Original research notebooks](notebooks/) | YOLOv5, YOLOv7, YOLOv8, and custom-image inference |
 | [Trained YOLOv8 checkpoint](bestv8.pt) | Original trained model weights |
 | [YOLOv8 model details](docs/yolov8-model.md) | Architecture, configuration, and 11-class taxonomy |
+| [Bangladesh-based dataset showcase](docs/bangladesh-dataset-showcase.md) | Original collection, multi-stage observation, annotation, and recovered evidence |
 | [Dataset methodology](docs/dataset-methodology.md) | Drone acquisition, annotation, and preprocessing |
 | [Experiment configurations](docs/experiment-configurations.md) | Training parameters from the original notebooks |
 | [Results and demonstrations](docs/results-and-demonstrations.md) | Detection experiments and research demonstrations |
