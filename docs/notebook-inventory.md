@@ -1,6 +1,6 @@
 # Original Research Notebook Inventory
 
-The following Jupyter notebooks are the primary computational artifacts associated with the thesis research. They are preserved as original research records, including their code cells, markdown, metadata, and saved outputs.
+The following Jupyter notebooks are the primary computational artifacts associated with the thesis research. They include research code, explanatory markdown, experiment metadata, and saved outputs.
 
 | Research component | Original notebook | SHA-256 |
 | --- | --- | --- |
