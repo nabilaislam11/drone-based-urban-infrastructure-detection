@@ -18,6 +18,20 @@ The research covers **YOLOv5, YOLOv7, YOLOv8, and a custom model**, using a data
 - **Urban-planning relevance:** Infrastructure recognition and analysis from aerial imagery.
 - **Peer-reviewed conference publication:** Presented through IEEE ICECE 2024 research proceedings.
 
+## Experimental Evidence
+
+Selected prediction examples from the original thesis presentation are shown below. These are original research figures, not newly generated demonstrations.
+
+| YOLOv5 | YOLOv8 |
+| :---: | :---: |
+| ![YOLOv5 aerial-image detection examples](figures/yolov5-predictions.jpg) | ![YOLOv8 aerial-image detection examples](figures/yolov8-predictions.png) |
+
+| YOLOv7 | Custom Model |
+| :---: | :---: |
+| ![YOLOv7 aerial-image detection examples](figures/yolov7-predictions.png) | ![Custom model aerial-image detection examples](figures/custom-model-predictions.png) |
+
+**[Explore all 13 original experimental figures](docs/experimental-figure-gallery.md)**, including training figures, results figures, and the geolocation demonstration. See the [experimental results documentation](docs/results-and-demonstrations.md) for the thesis presentation's context and slide references.
+
 ## Publication
 
 **Enhancing Infrastructure Detection Using Drone Imagery: A Comparative Analysis Using Machine Learning Models with a Custom Bangladesh-Based Dataset for Improved Urban Planning**
@@ -51,5 +65,6 @@ As a co-author of this undergraduate thesis research, I contributed to drone-ima
 | [Dataset methodology](docs/dataset-methodology.md) | Drone acquisition, annotation, and preprocessing |
 | [Experiment configurations](docs/experiment-configurations.md) | Training parameters from the original notebooks |
 | [Results and demonstrations](docs/results-and-demonstrations.md) | Detection experiments and research demonstrations |
+| [Original experimental figure gallery](docs/experimental-figure-gallery.md) | 13 figures from the final thesis presentation |
 | [Research workflow](docs/research-workflow.md) | Acquisition-to-analysis methodology |
 | [Research team](docs/research-team.md) | Thesis authors and academic supervision |
