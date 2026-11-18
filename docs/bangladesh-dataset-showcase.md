@@ -4,7 +4,7 @@
 
 This undergraduate research was built around a **locally collected and manually annotated aerial-imagery dataset**, rather than solely using a pre-existing public benchmark. The team collected imagery of the urban environment around **BRAC University's new campus in Merul Badda, Dhaka, Bangladesh**, with drone photography undertaken from the campus rooftop.
 
-The collection coincided with the period surrounding BRAC University's move from Mohakhali to its new campus in Badda. The team captured the surrounding landscape at **multiple stages** to observe changes in urban infrastructure over time. This is a **multi-stage acquisition strategy**; it should not be confused with a separately validated automated temporal change-detection model.
+The collection coincided with the period surrounding BRAC University's move from Mohakhali to its new campus in Badda. The team captured the surrounding landscape at **multiple stages** to observe changes in urban infrastructure over time. The staged collection provided aerial observations of the study area across different periods.
 
 ## Drone Image Collection and Annotation
 
@@ -27,9 +27,9 @@ The original dataset supports the research team's investigation of infrastructur
 
 The dataset development process and its application to the comparative detection experiments are described in the [dataset methodology](dataset-methodology.md) and [experiment configurations](experiment-configurations.md).
 
-## Annotated Examples
+## Research Visualizations
 
-The [experimental figure gallery](experimental-figure-gallery.md) shows original detection results from the thesis presentation. A curated set of raw and annotated dataset samples may be added separately when public sharing is authorized.
+The [experimental results and visualizations](experimental-figure-gallery.md) illustrate how the dataset supported infrastructure-detection experiments.
 
 ## Individual Contribution
 
@@ -37,7 +37,7 @@ The [experimental figure gallery](experimental-figure-gallery.md) shows original
 
 ## Relationship to the Published Thesis
 
-The dataset was an enabling research contribution for the comparative infrastructure-detection study, not a separate published benchmark release.
+The original dataset underpins the comparative infrastructure-detection study and its urban-planning research applications.
 
 - [Main research repository](../README.md)
 - [Dataset acquisition and preparation methodology](dataset-methodology.md)
