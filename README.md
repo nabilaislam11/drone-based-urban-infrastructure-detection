@@ -41,6 +41,6 @@ As a co-author of this undergraduate thesis research, I contributed to drone-ima
 | Research analysis | Comparative model results and infrastructure analysis |
 | Application | Urban planning and infrastructure monitoring |
 
-## Related Research Materials
+## Research Repository
 
-[Shared research materials hosted on a co-author's GitHub account](https://github.com/Khandaker-Atik/Urban-Development-Research-Projects)
+Explore the [Drone-Based Urban Infrastructure Detection research repository](https://github.com/nabilaislam11/drone-based-urban-infrastructure-detection) and the [research documentation](docs/research-overview.md).
