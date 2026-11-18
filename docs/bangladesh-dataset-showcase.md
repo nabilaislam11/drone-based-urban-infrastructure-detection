@@ -25,7 +25,7 @@ The research team organized drone-based collection, prepared imagery, manually a
 
 The original dataset supports the research team's investigation of infrastructure recognition in Bangladesh's urban environment. The collection strategy combines local aerial imagery, repeated observation across acquisition sessions, and manual annotation of infrastructure categories.
 
-The full thesis dataset is not distributed through this repository. The available Roboflow exports represent only part of the research materials; details of the experimental configurations and versions are documented in the [reproducibility guide](reproducibility-guide.md).
+The dataset development process and its application to the comparative detection experiments are described in the [dataset methodology](dataset-methodology.md) and [experiment configurations](experiment-configurations.md).
 
 ## Annotated Examples
 
