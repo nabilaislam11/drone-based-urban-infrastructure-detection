@@ -6,11 +6,11 @@ This undergraduate research was built around a **locally collected and manually 
 
 The collection coincided with the period surrounding BRAC University's move from Mohakhali to its new campus in Badda. The team captured the surrounding landscape at **multiple stages** to observe changes in urban infrastructure over time. This is a **multi-stage acquisition strategy**; it should not be confused with a separately validated automated temporal change-detection model.
 
-## Historical Collection and Annotation
+## Drone Image Collection and Annotation
 
 The final thesis presentation reports:
 
-| Historical research measure | Reported value |
+| Dataset development measure | Value documented in thesis |
 | --- | ---: |
 | Raw aerial photographs | 350 |
 | Drone videos | 17 |
@@ -19,27 +19,17 @@ The final thesis presentation reports:
 | Manual object annotations | Approximately 50,000 |
 | Final research class taxonomy | 11 classes |
 
-These are **historical figures from the team's thesis presentation**, not independently reconstructed counts from the currently available dataset ZIP files.
-
 The research team organized drone-based collection, prepared imagery, manually annotated infrastructure objects using Roboflow, and used the resulting dataset in experiments involving YOLOv5, YOLOv7, YOLOv8, and a custom approach.
 
-## Preserved Dataset Evidence
+## Dataset Research Contribution
 
-Two earlier Roboflow projects were recovered as dataset exports. They are useful evidence of the team's annotation workflow but **do not constitute the complete final thesis dataset**.
+The original dataset supports the research team's investigation of infrastructure recognition in Bangladesh's urban environment. The collection strategy combines local aerial imagery, repeated observation across acquisition sessions, and manual annotation of infrastructure categories.
 
-| Recovered project/version | Generated images | Classes | Notes |
-| --- | ---: | ---: | --- |
-| `aerial-image-gdys3`, version 1 | 93 | 9 | Earlier export |
-| `aerial-image-gdys3`, version 2 | 96 | 9 | Includes generated/augmented training images |
-| `aerial-image-2`, version 3 | 108 | 9 | YOLOv5 and YOLOv7 exports of the same version |
-
-**Generated images are not equivalent to independent original drone photographs.** Counts from different exports should not be added together to estimate unique source images. These recovered versions also have **nine classes**, while the thesis presentation documents **eleven classes** for the later research dataset.
-
-The dataset exports are marked **Private** in their Roboflow metadata. They are not distributed publicly here; any public sample release should be reviewed for appropriate rights and team approval.
+The full thesis dataset is not distributed through this repository. The available Roboflow exports represent only part of the research materials; details of the experimental configurations and versions are documented in the [reproducibility guide](reproducibility-guide.md).
 
 ## Annotated Examples
 
-A small, curated selection of authentic image-and-label examples can be added here after publication rights are confirmed. The original experimental prediction figures are already available in the [experimental figure gallery](experimental-figure-gallery.md); they should not be represented as raw dataset photographs.
+The [experimental figure gallery](experimental-figure-gallery.md) shows original detection results from the thesis presentation. A curated set of raw and annotated dataset samples may be added separately when public sharing is authorized.
 
 ## Individual Contribution
 
