@@ -1,6 +1,6 @@
 # Object-Detection Experiment Configuration
 
-This document records the experiment commands and parameters preserved in the research notebooks.
+This document records the experiment commands and parameters documented in the research notebooks.
 
 ## YOLOv5
 
@@ -46,7 +46,7 @@ The separate YOLOv8 categorization notebook contains inference code using a trai
 
 ## Dataset Versioning
 
-The original notebooks reference different Roboflow dataset export versions: **version 1** in the YOLOv5 notebook and **version 8** in the YOLOv7 notebook. These are preserved as notebook-specific configurations, not presented as identical experimental splits.
+The original notebooks reference different Roboflow dataset export versions: **version 1** in the YOLOv5 notebook and **version 8** in the YOLOv7 notebook. These are notebook-specific experimental configurations.
 
 ## Research Context
 
