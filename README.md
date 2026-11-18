@@ -41,6 +41,15 @@ As a co-author of this undergraduate thesis research, I contributed to drone-ima
 | Research analysis | Comparative model results and infrastructure analysis |
 | Application | Urban planning and infrastructure monitoring |
 
-## Research Repository
+## Explore the Research
 
-Explore the [Drone-Based Urban Infrastructure Detection research repository](https://github.com/nabilaislam11/drone-based-urban-infrastructure-detection) and the [research documentation](docs/research-overview.md).
+| Research resource | Contents |
+| --- | --- |
+| [Original research notebooks](notebooks/) | YOLOv5, YOLOv7, YOLOv8, and custom-image inference |
+| [Trained YOLOv8 checkpoint](bestv8.pt) | Original trained model weights |
+| [YOLOv8 model details](docs/yolov8-model.md) | Architecture, configuration, and 11-class taxonomy |
+| [Dataset methodology](docs/dataset-methodology.md) | Drone acquisition, annotation, and preprocessing |
+| [Experiment configurations](docs/experiment-configurations.md) | Training parameters from the original notebooks |
+| [Results and demonstrations](docs/results-and-demonstrations.md) | Detection experiments and research demonstrations |
+| [Research workflow](docs/research-workflow.md) | Acquisition-to-analysis methodology |
+| [Research team](docs/research-team.md) | Thesis authors and academic supervision |
