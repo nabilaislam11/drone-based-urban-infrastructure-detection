@@ -16,7 +16,7 @@ The research covers **YOLOv5, YOLOv7, YOLOv8, and a custom model**, using a data
 - **Original Bangladesh-based dataset:** Team-collected drone imagery from the rooftop of BRAC University's new campus in Merul Badda, Dhaka.
 - **Multi-stage urban observation:** Aerial imagery captured during three collection sessions to document the surrounding environment across different periods.
 - **Substantial manual annotation:** The thesis presentation reports 350 raw photographs, 17 videos, approximately 50,000 annotations, and 11 infrastructure classes.
-- **Preserved experimental evidence:** Original notebooks, a trained YOLOv8 checkpoint, and experimental figures from the thesis presentation.
+- **Experimental results and research artifacts:** Original notebooks, a trained YOLOv8 checkpoint, and experimental figures from the thesis presentation.
 
 ## Original Bangladesh-Based Dataset
 
@@ -24,9 +24,7 @@ A defining contribution of this research is its **custom, locally collected aeri
 
 The team prepared and manually annotated the imagery to investigate infrastructure detection in a Bangladesh-specific setting. **This dataset enabled the published model-comparison research; it is not presented as a separate published dataset release.**
 
-**[Explore the original dataset-development showcase](docs/bangladesh-dataset-showcase.md)** for collection context, historical figures, annotation methodology, and the distinction between the original thesis dataset and recovered early exports.
-
-*The historical dataset counts come from the thesis presentation. The recovered exports contain smaller, earlier nine-class datasets and should not be mistaken for the complete final 11-class collection.*
+**[Explore the Bangladesh-based dataset development](docs/bangladesh-dataset-showcase.md)** for the acquisition strategy, dataset creation, annotation methodology, and research context.
 
 ## Experimental Evidence
 
@@ -50,7 +48,7 @@ The thesis presentation reports experimental comparisons across YOLOv5, YOLOv7, 
 - **Locally collected imagery:** The presentation illustrates stronger detection on Bangladesh-based imagery than on selected foreign-image examples for the team's model. This is a qualitative comparison, not a universal generalization claim.
 - **Applied demonstration:** The research includes an image-geolocation and Google Maps demonstration to connect aerial-image analysis with spatial context.
 
-The original experimental figures and [slide-referenced discussion](docs/results-and-demonstrations.md) provide the supporting evidence. Because the preserved notebooks reference different dataset export versions, the repository does not claim a newly standardized, like-for-like numerical benchmark.
+The original experimental figures and [slide-referenced discussion](docs/results-and-demonstrations.md) provide the supporting evidence and experimental context.
 
 ## Publication
 
@@ -62,7 +60,7 @@ The original experimental figures and [slide-referenced discussion](docs/results
 
 ## Research Contributions
 
-As a co-author of this undergraduate thesis research, **I contributed to dataset preparation, manual image annotation, results analysis and visualization, and research writing/documentation**. The drone-image acquisition and object-detection experiments were collaborative research-team activities; this statement does not imply that I personally trained or evaluated every model.
+As a co-author of this undergraduate thesis research, **I contributed to dataset preparation, manual image annotation, results analysis and visualization, and research writing/documentation**. Drone-image acquisition and model experimentation were collaborative research-team activities.
 
 ## Technical Scope
 
@@ -82,7 +80,7 @@ As a co-author of this undergraduate thesis research, **I contributed to dataset
 | [Original research notebooks](notebooks/) | YOLOv5, YOLOv7, YOLOv8, and custom-image inference |
 | [Trained YOLOv8 checkpoint](bestv8.pt) | Original trained model weights |
 | [YOLOv8 model details](docs/yolov8-model.md) | Architecture, configuration, and 11-class taxonomy |
-| [Bangladesh-based dataset showcase](docs/bangladesh-dataset-showcase.md) | Original collection, multi-stage observation, annotation, and recovered evidence |
+| [Bangladesh-based dataset showcase](docs/bangladesh-dataset-showcase.md) | Original collection, multi-stage observation, annotation, and research context |
 | [Dataset methodology](docs/dataset-methodology.md) | Drone acquisition, annotation, and preprocessing |
 | [Experiment configurations](docs/experiment-configurations.md) | Training parameters from the original notebooks |
 | [Results and demonstrations](docs/results-and-demonstrations.md) | Detection experiments and research demonstrations |
@@ -90,4 +88,4 @@ As a co-author of this undergraduate thesis research, **I contributed to dataset
 | [Research workflow](docs/research-workflow.md) | Acquisition-to-analysis methodology |
 | [Research team](docs/research-team.md) | Thesis authors and academic supervision |
 | [Reproducibility guide](docs/reproducibility-guide.md) | Dataset versions, experiment commands, and checkpoint inference |
-| [Research materials index](docs/research-materials.md) | Direct links to all preserved artifacts |
+| [Research materials index](docs/research-materials.md) | Direct links to research artifacts |
