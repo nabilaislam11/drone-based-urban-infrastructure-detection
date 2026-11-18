@@ -27,10 +27,6 @@ The annotated dataset was used in comparative infrastructure-detection experimen
 
 The research also explored applications involving photogrammetry, building-height estimation, distance analysis, and geolocation-based mapping.
 
-## Dataset Availability and Provenance
-
-Recovered early Roboflow exports preserve examples of the team's original annotations, but they contain nine classes rather than the final thesis's eleven. The complete historical collection has not been recovered from the available exports. See the [dataset-development showcase](bangladesh-dataset-showcase.md) for details and limitations.
-
 ## Publication
 
 [Enhancing Infrastructure Detection Using Drone Imagery — IEEE ICECE 2024](https://doi.org/10.1109/ICECE64886.2024.11025116)
