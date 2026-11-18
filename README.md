@@ -32,6 +32,16 @@ Selected prediction examples from the original thesis presentation are shown bel
 
 **[Explore all 13 original experimental figures](docs/experimental-figure-gallery.md)**, including training figures, results figures, and the geolocation demonstration. See the [experimental results documentation](docs/results-and-demonstrations.md) for the thesis presentation's context and slide references.
 
+## Research Findings
+
+The thesis presentation reports experimental comparisons across YOLOv5, YOLOv7, YOLOv8, and a custom detection approach.
+
+- **Detection across models:** The team documented training results and aerial-image predictions for all four approaches, enabling qualitative examination of their behavior on infrastructure imagery.
+- **Locally collected imagery:** The presentation illustrates stronger detection on Bangladesh-based imagery than on selected foreign-image examples for the team's model. This is a qualitative comparison, not a universal generalization claim.
+- **Applied demonstration:** The research includes an image-geolocation and Google Maps demonstration to connect aerial-image analysis with spatial context.
+
+The original experimental figures and [slide-referenced discussion](docs/results-and-demonstrations.md) provide the supporting evidence. Because the preserved notebooks reference different dataset export versions, the repository does not claim a newly standardized, like-for-like numerical benchmark.
+
 ## Publication
 
 **Enhancing Infrastructure Detection Using Drone Imagery: A Comparative Analysis Using Machine Learning Models with a Custom Bangladesh-Based Dataset for Improved Urban Planning**
@@ -68,3 +78,5 @@ As a co-author of this undergraduate thesis research, I contributed to drone-ima
 | [Original experimental figure gallery](docs/experimental-figure-gallery.md) | 13 figures from the final thesis presentation |
 | [Research workflow](docs/research-workflow.md) | Acquisition-to-analysis methodology |
 | [Research team](docs/research-team.md) | Thesis authors and academic supervision |
+| [Reproducibility guide](docs/reproducibility-guide.md) | Dataset versions, experiment commands, and checkpoint inference |
+| [Research materials index](docs/research-materials.md) | Direct links to all preserved artifacts |
