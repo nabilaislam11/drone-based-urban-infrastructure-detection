@@ -1,18 +1,33 @@
-# Research Materials
+# Research Materials and Experiments
 
-## Model notebooks
+This document organizes the computational components of the research described in the [project overview](research-overview.md).
 
-The shared research materials include the following notebooks:
+## Object Detection Experiments
 
-| Model or task | Notebook in shared research repository |
+The research includes comparative work involving **YOLOv5**, **YOLOv7**, **YOLOv8**, and a **custom model** applied to drone-captured imagery from Bangladesh.
+
+| Research component | Scope |
 | --- | --- |
-| YOLOv5 | `Machine learning Models/YoloV5_Aerial Image.ipynb` |
-| YOLOv7 | `Machine learning Models/Yolo_v7.ipynb` |
-| YOLOv8 | `Machine learning Models/V2_yolov8_object_detection_on_our custom_dataset.ipynb` |
-| Custom-image inference and categorization | `Machine learning Models/Categorization v8_trained best.pt and custom image.ipynb` |
+| YOLOv5 | Aerial-image object-detection experiments |
+| YOLOv7 | Object-detection experiments |
+| YOLOv8 | Detection on the custom aerial-imagery dataset |
+| Custom-image analysis | Inference and image-level categorization |
+| Comparative analysis | Interpretation and visualization of experimental results |
 
-**Shared research source:** https://github.com/Khandaker-Atik/Urban-Development-Research-Projects
+## Dataset Development
 
-## Research publication
+The study uses a custom Bangladesh-based drone-imagery dataset. The research workflow encompasses aerial image collection, dataset preparation, and manual annotations covering **11 infrastructure classes**.
 
-**DOI:** https://doi.org/10.1109/ICECE64886.2024.11025116
+## Publication
+
+**Enhancing Infrastructure Detection Using Drone Imagery: A Comparative Analysis Using Machine Learning Models with a Custom Bangladesh-Based Dataset for Improved Urban Planning**
+
+*2024 13th International Conference on Electrical and Computer Engineering (ICECE)*
+
+[IEEE publication DOI: 10.1109/ICECE64886.2024.11025116](https://doi.org/10.1109/ICECE64886.2024.11025116)
+
+## Project Navigation
+
+- [Main research repository](../README.md)
+- [Research overview](research-overview.md)
+- [Research workflow](research-workflow.md)
