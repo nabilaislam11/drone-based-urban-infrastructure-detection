@@ -14,7 +14,7 @@ The research progressed from drone-image acquisition and image preparation to ma
 
 - [Dataset acquisition and annotation methodology](dataset-methodology.md)
 - [Experiment configurations](experiment-configurations.md)
-- [Original experimental figures](experimental-figure-gallery.md)
+- [Experimental results and visualizations](experimental-figure-gallery.md)
 - [Results and demonstrations](results-and-demonstrations.md)
 
 ## Research Significance
