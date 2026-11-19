@@ -47,6 +47,7 @@ The thesis investigated YOLOv5, YOLOv7, YOLOv8, and a custom model for aerial-im
 As a co-author of this undergraduate research, **Nabila Islam Borno** contributed to:
 
 - Preparation of the original drone-imagery dataset and manual object annotation.
+- Participation in model-training runs and experiment evaluation with the research team.
 - Analysis and visualization of experimental results.
 - Research writing and documentation.
 
