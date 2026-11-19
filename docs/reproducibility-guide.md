@@ -61,11 +61,11 @@ yolo task=detect mode=predict model=bestv8.pt source=/path/to/image.jpg save=Tru
 
 Run commands from the repository root or adjust paths accordingly. This is an example workflow, **not a claim that inference has been executed or validated in a fresh environment**.
 
-## Credential Handling
+## Roboflow Dataset Access
 
-The original research notebooks include hardcoded Roboflow credentials. **Do not reuse those credentials.** The project owner should revoke/rotate the exposed credentials in Roboflow before sharing or executing the notebooks.
+The research notebooks include a placeholder for the Roboflow API key used to access the dataset. To run a notebook with an authorized dataset export, supply your own Roboflow API key through your private environment and connect to the corresponding dataset version.
 
-For any new reproduction workflow, load a newly issued credential from a private environment variable or secret manager, rather than committing it to a notebook or source file. Removing a secret from the current file does not remove it from prior Git commits; repository history requires separate remediation.
+Keep API credentials out of published notebooks and source files. Dataset access remains governed by the Roboflow workspace's permissions.
 
 ## Interpretation
 
